@@ -1,14 +1,19 @@
 //react router dom
 import { Outlet } from 'react-router-dom';
 //components
+import { Navbar, Footer } from '../../components';
 function MainLayout() {
   return (
     <>
-      <header></header>
+      <header>
+        <Navbar />
+      </header>
       <main>
         <Outlet />
       </main>
-      <footer></footer>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }
