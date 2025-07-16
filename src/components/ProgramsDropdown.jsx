@@ -1,15 +1,20 @@
-import React from 'react';
-import { useTranslation } from 'react-i18next';
+import React from "react";
+import { useTranslation } from "react-i18next";
 
-const ProgramsDropdown = () => {
+const ProgramsDropdown = ({ footer }) => {
   const { t } = useTranslation();
+
+  const textClass = footer ? "foot-text" : "nav-text";
+
   return (
-    <div className="relative group">
+    <div className="group relative">
       {/* Trigger */}
-      <button className="flex items-center gap-1 nav-text   group-hover:text-primary transition">
-        {t('nav_programs')}
+      <button
+        className={`${textClass} group-hover:text-primary flex items-center gap-1 transition`}
+      >
+        {t("nav_programs")}
         <svg
-          className="w-4 h-4 transform group-hover:rotate-180 transition-transform"
+          className="h-4 w-4 transform transition-transform group-hover:rotate-180"
           fill="none"
           stroke="currentColor"
           strokeWidth="2"
@@ -20,19 +25,21 @@ const ProgramsDropdown = () => {
       </button>
 
       {/* Dropdown */}
-      <div className="absolute left-0 top-full mt-2 hidden group-hover:block bg-white shadow-md border rounded w-64 z-50">
-        <ul className="text-sm text-gray-800 divide-y divide-gray-200">
-          <li className="px-4 py-2 hover:bg-gray-50 cursor-pointer nav-text font-semibold">
-            {t('programs_title')}
+      <div className="absolute top-full left-0 z-50 mt-2 hidden w-64 rounded border bg-white shadow-md group-hover:block">
+        <ul className="divide-y divide-gray-200 text-sm text-gray-800">
+          <li
+            className={`nav-text cursor-pointer px-4 py-2 font-semibold hover:bg-gray-50`}
+          >
+            {t("programs_title")}
           </li>
-          <li className="px-4 py-2 nav-text hover:bg-gray-50 cursor-pointer">
-            {t('programs_specialized')}
+          <li className={`nav-text cursor-pointer px-4 py-2 hover:bg-gray-50`}>
+            {t("programs_specialized")}
           </li>
-          <li className="px-4 py-2 nav-text hover:bg-gray-50 cursor-pointer">
-            {t('programs_literacy')}
+          <li className={`nav-text cursor-pointer px-4 py-2 hover:bg-gray-50`}>
+            {t("programs_literacy")}
           </li>
-          <li className="px-4 py-2 nav-text hover:bg-gray-50 cursor-pointer">
-            {t('programs_certification')}
+          <li className={`nav-text cursor-pointer px-4 py-2 hover:bg-gray-50`}>
+            {t("programs_certification")}
           </li>
         </ul>
       </div>

@@ -14,6 +14,8 @@ import { useTranslation } from "react-i18next";
 // icons
 import { FaBars } from "react-icons/fa";
 
+import React from "react";
+
 function Navbar() {
   let [open, setOpen] = useState(false);
   const { t } = useTranslation();
@@ -47,4 +49,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default React.memo(Navbar);
