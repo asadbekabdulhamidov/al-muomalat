@@ -60,7 +60,7 @@ input:-webkit-autofill {
 }
 
 @layer components {
-  .container {
+  .align-center {
     @apply mx-auto w-full max-w-[1220px] px-5;
   }
   .nav-text {

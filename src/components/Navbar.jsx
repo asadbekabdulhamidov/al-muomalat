@@ -20,7 +20,7 @@ function Navbar() {
   let [open, setOpen] = useState(false);
   const { t } = useTranslation();
   return (
-    <nav className="container flex items-center justify-between py-[22px]">
+    <nav className="align-center flex items-center justify-between py-[22px]">
       <Link to="/">
         <SiteLogo className="w-[200px] lg:w-[239px]" />
       </Link>

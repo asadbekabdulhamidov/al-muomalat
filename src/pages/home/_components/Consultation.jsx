@@ -6,7 +6,7 @@ import ConsultationForm from "./ConsultationForm";
 function Consultation() {
   const { t } = useTranslation();
   return (
-    <div className="container flex flex-col rounded-[10px] xl:flex-row">
+    <div className="align-center flex flex-col rounded-[10px] xl:flex-row">
       <div className="rounded-[10px] bg-[#FAE9D3] px-[49px] py-[45px] xl:max-w-[60%]">
         <h4 className="font-inter mb-5 text-[32px] leading-[39px] font-bold text-[#D28527]">
           {t("section_title")}

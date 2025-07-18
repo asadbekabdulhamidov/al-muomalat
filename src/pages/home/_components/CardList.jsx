@@ -8,7 +8,7 @@ function CardList() {
   let { t } = useTranslation();
 
   return (
-    <section className="container flex flex-col items-center py-[70px]">
+    <section className="align-center flex flex-col items-center py-[70px]">
       <p className="font-inter mb-[10px] text-center text-[40px] leading-[49px] font-bold">
         {t("our_services")}
       </p>

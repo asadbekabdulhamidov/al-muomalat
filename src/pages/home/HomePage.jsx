@@ -6,6 +6,7 @@ import CardList from "./_components/CardList";
 import Consultation from "./_components/Consultation";
 
 import { useTranslation } from "react-i18next";
+import StudentsSec from "./_components/StudentsSec";
 
 function HomePage() {
   let { t } = useTranslation();
@@ -24,6 +25,9 @@ function HomePage() {
       </section> */}
       <section className="py-[70px]">
         <Consultation />
+      </section>
+      <section>
+        <StudentsSec />
       </section>
     </div>
   );

@@ -14,7 +14,7 @@ function Footer() {
   const { t } = useTranslation();
   return (
     <div className="bg-[#009688]">
-      <div className="container py-11">
+      <div className="align-center py-11">
         <div className="flex flex-col items-center gap-6 border-b-[2px] border-b-white pb-15">
           <Link to={"/"} className="rounded-3xl bg-white px-6 py-4">
             <SiteLogo />

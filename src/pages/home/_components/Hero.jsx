@@ -11,7 +11,7 @@ function Hero() {
   let { t } = useTranslation();
   return (
     <section className="relative flex h-[90vh] items-center bg-[#009688] md:h-[65vh] lg:h-[80vh] xl:h-[90vh] 2xl:h-[85vh]">
-      <div className="container flex flex-col gap-4 xl:flex-row xl:items-center xl:justify-between">
+      <div className="align-center flex flex-col gap-4 xl:flex-row xl:items-center xl:justify-between">
         <div className="flex flex-col gap-10">
           <p className="font-inter w-[300px] rounded-[10px] bg-[white] px-[25px] py-[10px] text-[17px] leading-[21px] font-medium text-[#252641] md:w-[421px]">
             {t("welcome_tag")}
