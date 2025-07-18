@@ -35,5 +35,14 @@
   "programs_title": "Xalqaro ta’lim dasturlari",
   "programs_specialized": "Maxsus kurslar",
   "programs_literacy": "Islomiy moliya savodxonligi kursi",
-  "programs_certification": "Sertifikatlash dasturi"
+  "programs_certification": "Sertifikatlash dasturi",
+
+  "section_title": "Islomiy Mashg‘ulotlar va Ruhiy Rivojlanish",
+  "section_description": "Har haftalik mashg‘ulotlarimizda ishtirok eting, ular islomiy ta'lim va ruhiy o‘sishga qaratilgan. Ushbu sessiyalar sizga iymoningizni mustahkamlash va hayot uchun zarur bo‘lgan ko‘nikmalarni egallashga yordam beradi",
+  "form_title": "Bepul maslahat",
+  "form_description": "Telefon raqamingizni qoldiring — siz bilan bog‘lanamiz va kurslarimiz haqida to‘liq ma’lumot beramiz.",
+  "form_name_placeholder": "Ismingiz",
+  "form_phone_placeholder": "Telefon raqam",
+  "form_checkbox": "Maslahat uchun shaxsiy ma’lumotlarimdan foydalanishga roziman.",
+  "form_submit": "Yuborish"
 }

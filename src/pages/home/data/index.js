@@ -5,6 +5,9 @@ import International from "../../../assets/images/png/International.png";
 import Islamic from "../../../assets/images/png/Islamic.png";
 import shariah from "../../../assets/images/png/shariah.png";
 
+//expertimg
+import expertimg from "../../../assets/images/png/expertimg.png";
+
 export const servicesData = [
   {
     id: 1,
@@ -47,5 +50,26 @@ export const servicesData = [
     descKey: "card_6_desc",
     bgColor: "bg-yellow-100",
     icon: shariah,
+  },
+];
+
+export const expertData = [
+  {
+    id: 7,
+    name: "expert_name_1",
+    description: "expert_description_1",
+    image: expertimg,
+  },
+  {
+    id: 8,
+    name: "expert_name_2",
+    description: "expert_description_2",
+    image: expertimg,
+  },
+  {
+    id: 9,
+    name: "expert_name_3",
+    description: "expert_description_3",
+    image: expertimg,
   },
 ];
