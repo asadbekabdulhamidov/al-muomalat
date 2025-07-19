@@ -1,31 +1,23 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/pagination";
+import { Autoplay, Pagination } from "swiper/modules"; // 👈 modules import qilingan
+// import "swiper/css";
+// import "swiper/css/pagination";
 
-//data
+// data va komponent
 import { expertData } from "../data";
 import OurExpertCart from "./OurExpertCart";
 
 function SwipperExpert() {
   return (
-    <div className="mx-auto max-w-7xl px-4">
+    <div className="">
       <Swiper
-        slidesPerView={1.2} // 1 ta slayd + keyingidan biroz qismi ko‘rinadi
-        spaceBetween={20} // 1000 EMAS! 20–30 yaxshi
+        modules={[Autoplay, Pagination]} // 👈 modules qo‘shildi
+        spaceBetween={30}
+        slidesPerView={1}
         loop={true}
-        centeredSlides={true}
-        autoplay={{ delay: 5000 }}
+        autoplay={{ delay: 3000, disableOnInteraction: false }} // 👈 autoplay qo‘shildi
         pagination={{ clickable: true }}
-        modules={[Autoplay, Pagination]}
-        className="!overflow-visible"
-        breakpoints={{
-          640: { slidesPerView: 1.2 },
-          768: { slidesPerView: 1.5 },
-          1024: { slidesPerView: 2.5 },
-          1280: { slidesPerView: 3 },
-        }}
       >
         {expertData.map(({ id, name, description, image }) => (
           <SwiperSlide key={id}>

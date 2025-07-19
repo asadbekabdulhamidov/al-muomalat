@@ -1,41 +1,43 @@
 //components
-import { SignButton, SignInput, PhoneInputForm } from '../../../components';
-import { useFormik } from 'formik';
+import { SignButton, SignInput, PhoneInputForm } from "../../../components";
+import { useFormik } from "formik";
 
-import * as yup from 'yup';
+import * as yup from "yup";
 
 const loginSchema = yup.object({
   email: yup
     .string()
-    .email('Email noto‘g‘ri formatda')
-    .required('Email kiritilishi shart'),
+    .email("Email noto‘g‘ri formatda")
+    .required("Email kiritilishi shart"),
 
-  username: yup.string().required('username kiritilishi shart'),
-  tel: yup.string().required('Telefon raqam kiritilishi shart'),
+  username: yup.string().required("username kiritilishi shart"),
+  tel: yup.string().required("Telefon raqam kiritilishi shart"),
 });
 
 const RegisterForm = () => {
   const formik = useFormik({
     initialValues: {
-      tel: '',
-      email: '',
-      username: '',
+      tel: "",
+      email: "",
+      username: "",
     },
     validationSchema: loginSchema,
     onSubmit: (values) => {
       console.log(values);
+
+      formik.resetForm();
     },
   });
   return (
     <form
-      className=" w-full3  lg:w-[454px] flex flex-col gap-6"
+      className="w-full3 flex flex-col gap-6 lg:w-[454px]"
       onSubmit={formik.handleSubmit}
     >
       <SignInput
-        id="text"
+        id="username"
         name="username"
-        type="username"
-        placeholder="Enter your email"
+        type="text"
+        placeholder="User Name"
         onChange={formik.handleChange}
         value={formik.values.username}
         error={formik.errors.username}
@@ -60,7 +62,7 @@ const RegisterForm = () => {
         touched={formik.touched.tel}
       />
 
-      <SignButton type={'submit'} className="mt-[6px] cursor-pointer">
+      <SignButton type={"submit"} className="mt-[6px] cursor-pointer">
         Sign in
       </SignButton>
     </form>

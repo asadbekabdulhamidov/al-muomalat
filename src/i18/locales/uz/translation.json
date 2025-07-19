@@ -30,6 +30,18 @@
 
   "faq": "Ko‘p so‘raladigan savollar",
   "free_consultation": "Bepul maslahat",
+  "faq.q1.question": "Kurslarga umrbod kirish huquqini olamanmi?",
+  "faq.q1.answer": "Platformamizda o‘rganish va dars berishda yordam beruvchi PDFlar va ish varaqalari kabi yuklab olinadigan resurslar mavjud.",
+
+  "faq.q2.question": "Materiallardan jamoaviy o‘qitishda foydalansam bo‘ladimi?",
+  "faq.q2.answer": "Ha, agar tijorat maqsadida bo‘lmasa, jamoangizdagi mashg‘ulotlarda foydalanishingiz mumkin.",
+
+  "faq.q3.question": "Kurslar uchun bepul sinov muddati mavjudmi?",
+  "faq.q3.answer": "Ha, ko‘pchilik kurslarimiz 7 kunlik bepul sinov bilan taqdim etiladi.",
+
+  "faq.q4.question": "Bu kurslardan kimlar foyda olishi mumkin?",
+  "faq.q4.answer": "O‘qituvchilar, talabalar va tuzilgan islomiy bilimga qiziqqan har qanday kishi foyda olishi mumkin.",
+
   "submit": "Yuborish",
   "nav_home": "Bosh sahifa",
   "nav_programs": "Dasturlar",
@@ -49,5 +61,9 @@
   "form_name_placeholder": "Ismingiz",
   "form_phone_placeholder": "Telefon raqam",
   "form_checkbox": "Maslahat uchun shaxsiy ma’lumotlarimdan foydalanishga roziman.",
-  "form_submit": "Yuborish"
+  "form_submit": "Yuborish",
+
+  "why_islamic_finance": "Nega Islomiy moliya?",
+  "what_makes_islamic_finance_unique": "Islomiy moliyani noyob qiladigan narsa nima?",
+  "how_is_risk_managed": "Islomiy moliyada xavf qanday boshqariladi?"
 }

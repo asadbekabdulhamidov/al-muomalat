@@ -5,8 +5,16 @@ import International from "../../../assets/images/png/International.png";
 import Islamic from "../../../assets/images/png/Islamic.png";
 import shariah from "../../../assets/images/png/shariah.png";
 
+//media
+import mediaCart1 from "../../../assets/images/png/mediaCart1.png";
+import mediaCart2 from "../../../assets/images/png/mediaCart2.png";
+import mediaCart3 from "../../../assets/images/png/mediaCart3.png";
+
 //expertimg
 import expertimg from "../../../assets/images/png/expertimg.png";
+
+import { v4 as uuidv4 } from "uuid";
+import { ImGift } from "react-icons/im";
 
 export const servicesData = [
   {
@@ -71,5 +79,51 @@ export const expertData = [
     name: "expert_name_3",
     description: "expert_description_3",
     image: expertimg,
+  },
+];
+
+export const mediaCartsData = [
+  {
+    id: uuidv4(),
+    text: "why_islamic_finance",
+    bg: mediaCart1,
+  },
+  {
+    id: uuidv4(),
+    text: "what_makes_islamic_finance_unique",
+    bg: mediaCart2,
+  },
+  {
+    id: uuidv4(),
+    text: "how_is_risk_managed",
+    bg: mediaCart3,
+  },
+];
+
+export const faqs = [
+  {
+    id: uuidv4(),
+    questions: "faq.q1.question",
+    answer: "faq.q1.answer",
+  },
+  {
+    id: uuidv4(),
+    questions: "faq.q2.question",
+    answer: "faq.q2.answer",
+  },
+  {
+    id: uuidv4(),
+    questions: "faq.q3.question",
+    answer: "faq.q3.answer",
+  },
+  {
+    id: uuidv4(),
+    questions: "faq.q1.question",
+    answer: "faq.q1.answer",
+  },
+  {
+    id: uuidv4(),
+    questions: "faq.q4.question",
+    answer: "faq.q4.answer",
   },
 ];

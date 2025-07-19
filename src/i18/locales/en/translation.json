@@ -56,5 +56,20 @@
   "programs_title": "International educational programs",
   "programs_specialized": "Specialized courses",
   "programs_literacy": "Islamic Finance Literacy Course",
-  "programs_certification": "Certification program"
+  "programs_certification": "Certification program",
+  "why_islamic_finance": "Why Islamic finance?",
+  "what_makes_islamic_finance_unique": "What makes Islamic finance unique?",
+  "how_is_risk_managed": "How is risk managed in Islamic finance?",
+
+  "faq.q1.question": "Will I receive lifetime access to the courses?",
+  "faq.q1.answer": "Our platform includes downloadable resources such as PDFs and worksheets to help you study and teach effectively.",
+
+  "faq.q2.question": "Can I use the materials for community teaching?",
+  "faq.q2.answer": "Yes, you may use them in your community sessions as long as it's non-commercial.",
+
+  "faq.q3.question": "Is there a free trial for the courses?",
+  "faq.q3.answer": "Yes, most of our courses come with a 7-day free trial.",
+
+  "faq.q4.question": "Who can benefit from these courses?",
+  "faq.q4.answer": "Teachers, students, and anyone interested in structured Islamic knowledge."
 }

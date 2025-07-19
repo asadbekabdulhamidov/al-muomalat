@@ -15,7 +15,7 @@ function CardList() {
       <p className="mb-[62px] w-[300px] text-center text-[20px] leading-[24px] font-medium text-[#686868] md:w-[574px]">
         {t("our_services_desc")}
       </p>
-      <div className="flex flex-wrap items-center justify-center gap-7">
+      <div className="grid grid-cols-1 gap-7 md:grid-cols-2 xl:grid-cols-3">
         {servicesData &&
           servicesData.map((item) => {
             return (

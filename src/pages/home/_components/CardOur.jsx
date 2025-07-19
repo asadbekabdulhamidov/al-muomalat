@@ -7,7 +7,7 @@ function CardOur({ icon, titleKey, descKey, bgColor }) {
 
   return (
     <div
-      className={`${bgColor} flex h-[380px] w-[380px] flex-col justify-between rounded-[10px] p-[30px]`}
+      className={`${bgColor} flex h-[380px] max-w-[380px] flex-col justify-between rounded-[10px] p-[30px]`}
     >
       <div>
         <div className="mb-5 flex items-center gap-5">

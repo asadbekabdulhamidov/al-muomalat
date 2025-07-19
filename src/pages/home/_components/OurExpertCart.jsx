@@ -13,10 +13,10 @@ import expertimg from "../../../assets/images/png/expertimg.png";
 function OurExpertCart({ name, description, image }) {
   let { t } = useTranslation();
   return (
-    <div className="flex w-[900px] items-center gap-[65px] rounded-[10px] bg-[#d2e6e4] p-9">
+    <div className="mx-auto flex max-w-[980px] items-center gap-[65px] rounded-[10px] bg-[#d2e6e4] p-9">
       <div>
         <img
-          className="h-[375px] w-[285px]"
+          className="hidden h-[375px] w-[285px] md:block"
           src={image}
           alt="expert mezbah uddin ahmed"
           width={"235"}
